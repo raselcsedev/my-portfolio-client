@@ -1,6 +1,8 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home/Home';
 import NavBar from './Pages/Home/NavBar';
+import ProjectDetail from './Pages/ProjectDetail/ProjectDetail';
 import Footer from './Pages/Shared/Footer';
 
 function App() {
@@ -9,7 +11,10 @@ function App() {
       <div className='sticky top-0 z-50'>
       <NavBar></NavBar>
       </div>
-      <Home></Home>
+      <Routes>
+          <Route path='/' element={<Home></Home>}></Route>
+          <Route path='/projects/:id' element={<ProjectDetail></ProjectDetail>}></Route>
+        </Routes>
       <div>
         <Footer></Footer>
       </div>

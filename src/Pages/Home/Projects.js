@@ -12,15 +12,15 @@ const Projects = () => {
     return (
         <div>
 
-<div className='mb-10'>
+            <div className='mb-10'>
                 <h3 className='text-5xl font-semibold'>Projects</h3>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
-                    projects.map(project => <Project key={project.id} project={project}></Project>)
+                    projects.map((project, index) => <Project key={project.id} index={index} project={project}></Project>)
                 }
             </div>
-            
+
         </div>
     );
 };

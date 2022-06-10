@@ -26,7 +26,7 @@ const ContactMe = () => {
                 </div>
                 <div className="card w-full shadow-2xl bg-base-100 col-span-5 lg:col-span-3">
                     <form
-                        action="https://formsubmit.co/labib.salimi30@gmail.com"
+                        action="https://formsubmit.co/raselcse.dev@gmail.com"
                         method="POST"
                         className="card-body"
                     >
@@ -36,7 +36,6 @@ const ContactMe = () => {
                             </label>
                             <input
                                 type="text"
-                                placeholder="Your Email"
                                 name="name"
                                 className="input h-8 input-bordered"
                             />
@@ -47,7 +46,6 @@ const ContactMe = () => {
                             </label>
                             <input
                                 type="email"
-                                placeholder="Your Email"
                                 name="email"
                                 className="input h-8 input-bordered"
                             />
