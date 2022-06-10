@@ -18,7 +18,7 @@ const Project = ({ project, index }) => {
             <div className="card-body">
                 <div className='mb-5'>
                     <h2 className="card-title text-3xl mb-5">{name}</h2>
-                    <p className='badge h-auto p-2'>{type}</p>
+                    {/* <p className='badge h-auto p-2'>{type}</p> */}
                 </div>
                 <p className='leading-relaxed mb-5'>{description}</p>
                 <button className="btn btn-sm btn-outline" onClick={() => navigateToDetails(id)}>Project Details</button>

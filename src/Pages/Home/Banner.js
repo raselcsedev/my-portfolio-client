@@ -17,7 +17,7 @@ const Banner = () => {
                     initial={{ opacity: 0, x: -50, scale: 0.9 }}
                     animate={{ opacity: 1, x: 0, scale: 1 }}
                     transition={{ duration: 1, ease: "easeInOut" }}
-                    className='max-w-2xl'
+                    className='max-w-2xl text-white'
                 >
                     <h1 className="text-5xl font-semibold mb-5">Hi! I am Rasel!</h1>
                     <div className="text-3xl leading-relaxed mb-5">Front-end Web Developer

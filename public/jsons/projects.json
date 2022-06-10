@@ -1,24 +1,25 @@
 [
     {
         "name": "RM Technology",
-        "id":"1",
+        "id":"0",
         "type": "Manufacturing Company Website",
+        "photo": "images/screenshots/Capture1.JPG",
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/rm1"
+                "image": "images/screenshots/rm1.JPG"
             },
             {
                 "title": "Admin Dashboard",
-                "image": "images/screenshots/rm2"
+                "image": "images/screenshots/rm2.JPG"
             },
             {
                 "title": "User Dashboard",
-                "image": "images/screenshots/rm3"
+                "image": "images/screenshots/rm3.JPG"
             }
         ],
         "description": "This is a full-stack responsive react project where dealers can buy tools in bulk. Users can go to the dashboard and pay for or cancel their orders. Only admins see all orders and their payment status in the dashboard. They can also ship paid orders. Admins can make normal users admin and add or delete products.",
-        "detailedDescription": "This is a website made for an imaginary company called Iron Works who manufacturers hand tools and operates in the south Asia region. Regular users will be able to login and purchase their products in bulk form the site. Each product has its own minimum order quantity and total stock. After placing the order the user can go to the dashboard to delete or pay for the order. Users with admin privilege will be able to add and remove products. They will be able to see all of the orders and their payment status. If the payment is done, the admins can ship the product to the user.",
+        "detailedDescription": "Implemented user interface with React JS.Implemented dashboard for admin who can add and manage products, also make admin any users.Implemented dashboard for users who can add a review and can see orders.",
         "links": [
             {
                 "title": "Live Site",
@@ -35,68 +36,70 @@
         ]
     },
     {
-        "name": "Easy Inventory",
-        "id":"2",
+        "name": "Electronics Warehouse",
+        "id":"1",
         "type": "Inventory Manager Website",
+        "photo": "images/screenshots/ew1.JPG",
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/easyInventory.png"
+                "image": "images/screenshots/ew1.JPG"
             },
             {
                 "title": "Add New Product Page",
-                "image": "images/screenshots/easyInventory-add-product.png"
+                "image": "images/screenshots/ew2.JPG"
             },
             {
                 "title": "Manage Products Page",
-                "image": "images/screenshots/easyInventory-manage-inv.png"
+                "image": "images/screenshots/ew3.JPG"
             }
         ],
         "description": "This is another full stack responsive web application to manage store inventory. Where users can update the stock of a product by restocking or delivering products. The user can add or delete products from the list. Users can report bugs from the bug report section on the home page.",
-        "detailedDescription": "This is a inventory management website. Here the user can monitor their stock in the warehouse. They can also individually add more stock of each item or ship items away from the warehouse (decrease the stock). Alternatively, the users can delete an item or add new items in the inventory. The users can also see the items added by them.",
+        "detailedDescription": "Login/Register with an email password, and google account.Implemented manage product where users can delete a product.Implemented add product where users can add product",
         "links": [
             {
                 "title": "Live Site",
-                "url": "https://crick-freak-assignment.web.app/"
+                "url": "https://electronics-warehouse-cea0b.web.app/"
             },
             {
                 "title": "Client Side Code",
-                "url": "https://github.com/Labib2003/assignment-11-full-stack-web-app-client"
+                "url": "https://github.com/raselcsedev/electronics-engineering-warehouse"
             },
             {
                 "title": "Server Side Code",
-                "url": "https://github.com/Labib2003/assignment-11-full-stack-web-app-server"
+                "url": "https://github.com/raselcsedev/electronics-engineering-warehouse-server"
             }
         ]
     },
     {
-        "name": "Guitar Tutor",
-        "id":"3",
+        "name": "Sports Photography",
+        "id":"2",
         "type": "Independent Service Provider Website",
+        "photo": "images/screenshots/sp1.JPG",
         "screenshots": [
             {
                 "title": "Homepage",
-                "image": "images/screenshots/guitarTutor.png"
+                "image": "images/screenshots/sp1.JPG"
             },
             {
                 "title": "Login Page",
-                "image": "images/screenshots/guitarTutor-login.png"
+                "image": "images/screenshots/sp2.JPG"
             },
             {
                 "title": "Services",
-                "image": "images/screenshots/guitarTutor-services.png"
+                "image": "images/screenshots/sp3.JPG"
             }
         ],
         "description": "This is a simple react website with routing and firebase authentication. Users can log in using email-password or google pop-up. Users cannot access the checkout page without logging in.",
-        "detailedDescription": "This is a website for a independent guitar teacher. The users can see all of his services and other user reviews in the homepage. They can log in to book a service. The login part is a must. If the user clicks on the booking button without logging in first, they wil be redirected to the login page and returned back to the checkout page after logging in successfully.",
+        "detailedDescription": " Login/Register with an email password, google and github account.Implemented checkout where users can see payment details.Implemented require auth for proceed checkout.",
         "links": [
             {
                 "title": "Live Site",
-                "url": "https://guitar-tutor-assignment.web.app/"
+                "url": "https://preview-sports-photography.web.app/"
             },
             {
                 "title": "Client Side Code",
-                "url": "https://github.com/Labib2003/assignment-10-firebase-authentication"
+                "url": "https://github.com/raselcsedev/sports-photography"
             }
         ]
     }

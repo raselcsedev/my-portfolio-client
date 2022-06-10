@@ -9,16 +9,16 @@ const ContactMe = () => {
             className="hero mb-32"
         >
             <div className="hero-content grid grid-cols-1 lg:grid-cols-5 p-0">
-                <div className="text-center lg:text-left col-span-5 lg:col-span-2">
+                <div className="text-center lg:text-left text-white col-span-5 lg:col-span-2">
                     <div className='mb-5'>
                         <h1 className="text-5xl font-semibold mb-5">Get in touch</h1>
                         <p className="text-xl leading-relaxed">Send me an email if you think I can help you out with any of your web related projects.</p>
                     </div>
                     <div className='mb-5 lg:mb-0'>
                         <h1 className="text-5xl font-semibold mb-5">Social Media</h1>
-                        <div className='grid grid-cols-3'>
-                            <a className='lg:ml-0 mx-auto' target='_blank' href="https://github.com/raselcsedev"><img className='hover:scale-110' src="images/icons/github.svg" alt="my GitHub" /></a>
-                            <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.linkedin.com/in/md-rasel-1a9957174/"><img className='hover:scale-110' src="images/icons/linkedin.svg" alt="my LinkedIn" /></a>
+                        <div className='flex'>
+                            <a className='lg:ml-0 ' target='_blank' href="https://github.com/raselcsedev"><img className='hover:scale-110' src="images/icons/github.svg" alt="my GitHub" /></a>
+                            <a className='lg:ml-0' target='_blank' href="https://www.linkedin.com/in/md-rasel-1a9957174/"><img className='hover:scale-110' src="images/icons/linkedin.svg" alt="my LinkedIn" /></a>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.facebook.com/raselrezwan001"><img className='hover:scale-110' src="images/icons/facebook.svg" alt="my Facebook" /></a>
                             
                         </div>

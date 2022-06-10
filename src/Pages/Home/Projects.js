@@ -12,8 +12,8 @@ const Projects = () => {
     return (
         <div>
 
-            <div className='mb-10'>
-                <h3 className='text-5xl font-semibold'>Projects</h3>
+            <div className='mb-5' id='projects'>
+                <h3 className='text-5xl text-white font-semibold'>Projects</h3>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
