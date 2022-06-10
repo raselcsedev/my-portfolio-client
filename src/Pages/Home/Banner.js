@@ -23,7 +23,7 @@ const Banner = () => {
                     <div className="text-3xl leading-relaxed mb-5">Front-end Web Developer
                         
                     </div>
-                    <a href="https://drive.google.com/file/d/1OW7rVaxymxH0_suemiYW9xvLxFl-vdOk/view?usp=sharing" target="_blank" className="btn btn-primary">Download Resume</a>
+                    <a href="https://drive.google.com/file/d/1OW7rVaxymxH0_suemiYW9xvLxFl-vdOk/view?usp=sharing" target="_blank" download className="btn btn-primary">Download Resume</a>
                 </div>
             </div>
         </div>

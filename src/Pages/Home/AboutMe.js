@@ -15,7 +15,7 @@ const AboutMe = () => {
                 <div className='max-w-2xl mr-0 lg:mr-16'>
                     <h1 className="text-5xl font-semibold mb-5">About Me</h1>
                     <p className="text-xl leading-relaxed mb-5">I am passionate about things related to HTML5, CSS3, JavaScript, ES6, React.js, Firebase, Node.js, MongoDB.</p>
-                    <a href='#portfolio' className="btn btn-primary">Recent Projects</a>
+                    <a href='/' className="btn btn-primary">Me</a>
                 </div>
             </div>
         </div>
