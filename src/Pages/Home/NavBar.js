@@ -14,7 +14,7 @@ const NavBar = () => {
             className="navbar mb-32"
         >
             <div className="navbar-start">
-                <p className="normal-case text-xl">Md. Rasel Aktar</p>
+                <p className="normal-case text-sky-900 font-extrabold text-2xl">Md. Rasel Aktar</p>
             </div>
             <div className="dropdown flex navbar-end">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">
