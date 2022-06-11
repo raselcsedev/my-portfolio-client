@@ -13,7 +13,7 @@ const Project = ({ project, index }) => {
         <div
             whileHover={{ translateY: -15 }}
             whileTap={{ scale: 1.05 }}
-            className="card bg-base-100 my-5 shadow-xl">
+            className="card bg-[#EFEFEF] my-5 shadow-xl">
             <img src={screenshots[0].image} alt="Shoes" />
             <div className="card-body">
                 <div className='mb-5'>

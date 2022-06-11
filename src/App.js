@@ -7,7 +7,7 @@ import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto scroll-smooth bg-black">
+    <div className="max-w-7xl mx-auto scroll-smooth bg-slate-900">
       <div className='sticky top-0 z-50'>
       <NavBar></NavBar>
       </div>

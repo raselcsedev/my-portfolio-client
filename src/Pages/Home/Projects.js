@@ -10,10 +10,11 @@ const Projects = () => {
     }, []);
 
     return (
-        <div>
-
-            <div className='mb-5' id='projects'>
-                <h3 className='text-5xl text-white font-semibold'>Projects</h3>
+        <div id='projects'>
+            <div className='mb-5 pt-16' >
+            <h1 className="text-5xl  font-bold  text-white">
+              My <span className="text-orange-600">Projects</span>{" "}
+            </h1>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
