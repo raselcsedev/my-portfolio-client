@@ -51,7 +51,7 @@ const ContactMe = () => {
               </span>
               <div>
                 <h2 className="text-xl font-semibold">Have a question?</h2>
-                <p className="text-gray-400">I am here</p>
+                <p className="text-gray-400">I am here to help</p>
                 <p className="text-orange-500">
                   Email me at hello@email.com
                 </p>
@@ -63,7 +63,7 @@ const ContactMe = () => {
               </span>
               <div>
                 <h2 className="text-xl font-semibold">Current Location</h2>
-                <p className="text-gray-400">Dhaka,Bangladesh.</p>
+                <p className="text-gray-400">Dhaka, Bangladesh.</p>
                 <p className="text-orange-500">Serving clients worldwide</p>
               </div>
             </div>
@@ -74,7 +74,7 @@ const ContactMe = () => {
               <div>
                 <h2 className="text-xl font-semibold">Contact with me</h2>
                 <p className="text-gray-400">Email: raselcse.dev@gmail.com</p>
-                <p className="text-orange-500">Phone : +880-1768297822</p>
+                <p className="text-orange-500">Phone: +880-1768297822</p>
               </div>
             </div>
           </div>
