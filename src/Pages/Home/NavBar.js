@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import logo from "../../assests/icons/logo.png";
 
 const NavBar = () => {
     const navbarItems = <>
@@ -15,11 +16,11 @@ const NavBar = () => {
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
-            className="navbar bg-[#112B3C] px-10 mb-32"
+            className="navbar bg-[#112B3C] px-10 mb-20"
         >
             <div className="navbar-start">
             <div className="flex text-white text-2xl font-bold items-center gap-2">
-            <img className="h-10" src='' alt="" />
+            <img className="h-10" src={logo} alt="" />
             Developer
           </div>
             </div>

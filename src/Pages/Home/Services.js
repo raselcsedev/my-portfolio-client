@@ -12,7 +12,7 @@ import {
   const Services = () => {
     return (
       <div id="services">
-        <div className=" container pb-20 pt-16 font-ralway">
+        <div className=" container lg:pb-16 pt-16 font-ralway">
           <div className="mb-16  flex flex-col items-start  ">
             <h1 className="text-5xl  font-bold  text-white">
               My <span className="text-orange-600">Services</span>{" "}
@@ -27,7 +27,7 @@ import {
                 </span>
               </p>
               <div className="h-40 ">
-                <h1 className="text-2xl font-bold text-center mt-3 ">
+                <h1 className="text-2xl text-success font-bold text-center mt-3 ">
                   Web Design
                 </h1>
                 <p className="text-gray-300 font-semibold mt-3 text-center">
@@ -43,7 +43,7 @@ import {
                 </span>
               </p>
               <div className="h-40 ">
-                <h1 className="text-2xl font-bold text-center mt-3 ">
+                <h1 className="text-2xl text-success font-bold text-center mt-3 ">
                   Web Development
                 </h1>
                 <p className="text-gray-300 font-semibold mt-3 text-center">
@@ -59,7 +59,7 @@ import {
                 </span>
               </p>
               <div className="h-40 ">
-                <h1 className="text-2xl font-bold text-center mt-3 ">
+                <h1 className="text-2xl text-success font-bold text-center mt-3 ">
                   Responsive Design
                 </h1>
                 <p className="text-gray-300 font-semibold mt-3 text-center">

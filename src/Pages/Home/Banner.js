@@ -3,9 +3,10 @@ import Resume from "../../assests/images/Rasel_Aktar_Resume.pdf";
 
 
 
+
 const Banner = () => {
     return (
-        <div className="  mb-32">
+        <div className="mb-20">
             
 
             <div className="hero-content flex-col w-full justify-around lg:flex-row-reverse">
@@ -23,11 +24,11 @@ const Banner = () => {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className='max-w-2xl text-white'
                 >
-                    <h1 className="text-5xl font-semibold mb-5">Hi! I am <span className='text-orange-600'>Rasel</span> </h1>
-                    <div className="text-2xl leading-relaxed mb-5">Front-end Web Developer
+                    <h1 className="text-5xl font-semibold mb-2">Hi! I am <span className='text-orange-600'>Rasel</span> </h1>
+                    <div className="text-2xl text-success font-semibold leading-relaxed mb-5">Front-End Web Developer
                     <div className='mb-5 lg:mb-0'>
-                        <div className='flex'>
-                            <a className='lg:ml-0 ' target='_blank' href="https://github.com/raselcsedev"><img className='hover:scale-110' src="images/icons/github.svg" alt="my GitHub" /></a>
+                        <div className='flex pt-5'>
+                            <a className='lg:ml-0' target='_blank' href="https://github.com/raselcsedev"><img className='hover:scale-110' src="images/icons/github.svg" alt="my GitHub" /></a>
                             <a className='lg:ml-0' target='_blank' href="https://www.linkedin.com/in/md-rasel-1a9957174/"><img className='hover:scale-110' src="images/icons/linkedin.svg" alt="my LinkedIn" /></a>
                             <a className='lg:ml-0' target='_blank' href="https://www.facebook.com/raselrezwan001"><img className='hover:scale-110' src="images/icons/facebook.svg" alt="my Facebook" /></a>
 

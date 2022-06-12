@@ -20,7 +20,7 @@ const ContactMe = () => {
             });
     };
     return (
-        <div id="contact" className='pt-16'>
+        <div id="contact" className='sm:pt-10'>
 
 
             {/* <form ref={form} onSubmit={sendEmail}>
@@ -36,7 +36,7 @@ const ContactMe = () => {
 
 <div  className=" font-ralway text-white">
       <div className=" container font-ralway py-10">
-        <div className="mb-10  md:mb-20 ">
+        <div className="mb-10 ">
           <h1 className="text-5xl  font-bold  text-white">
             Contact <span className="text-orange-600">Me</span>{" "}
           </h1>

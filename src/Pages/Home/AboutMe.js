@@ -3,9 +3,9 @@ import React from "react";
 import bg from "../../assests/images/animate.png";
 const AboutMe = () => {
     return (
-        <div id="about" className=" lg:pt-10 pb-20 text-[#112B3C] font-ralway">
-            <div className=" ">
-                <div className="mb-16 ">
+        <div id="about" className=" lg:pt-16  text-[#112B3C] font-ralway">
+            <div >
+                <div className="sm:mb-5 lg:mb-16 ">
                     <h1 className="text-5xl  font-bold  text-white">
                         About <span className="text-orange-600">Me</span>{" "}
                     </h1>
@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row md:items-center justify-center py-10 ">
                     <div className="flex-1">
-                        <div className="relative">
+                        <div className="relative pb-10">
                             <img
                                 className=" w-60 md:w-80  bg-shadow rounded-full bg-white p-2 relative top-4 md:top-[-20px] md:left-10  left-12 z-20"
                                 src="images/face.png"
@@ -29,13 +29,13 @@ const AboutMe = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex-1  pt-10 md:pt-0 font-semibold">
-                        <h1 className="text-4xl font-bold mb- text-orange-600">
+                    <div className="flex-1 md:pt-0 font-semibold">
+                        <h1 className="text-5xl font-semibold mb- text-orange-600">
                             Md. Rasel <span className="text-white">Aktar</span>
                         </h1>
-                        <p className="text-success font-semibold">
-                            Front-end Web Developer || React Developer 
-                        </p>
+                        {/* <p className="text-success font-semibold">
+                            React.js || Node.js || Mongodb
+                        </p> */}
                         <p className="mt-3 text-white">
                             Hello Dear, I'm Rasel with solid knowledge of Frontend Web
                             Development. My knowledge enables me to create modern &
